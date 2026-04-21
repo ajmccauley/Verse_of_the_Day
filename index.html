@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Verse of the Day</title>
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 0; padding: 2rem; background: #f6f7fb; color: #1f2937; }
+      .card { max-width: 720px; margin: 0 auto; background: white; border-radius: 16px; padding: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+      .ref { color: #6b7280; font-size: 1.1rem; margin-bottom: 1rem; }
+      .verse { font-size: 2rem; line-height: 1.35; }
+      .updated { margin-top: 1.5rem; color: #9ca3af; font-size: .9rem; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="ref" id="reference">Loading...</div>
+      <div class="verse" id="message"></div>
+      <div class="updated" id="updatedAt"></div>
+    </div>
+    <script>
+      fetch('./message.json', { cache: 'no-store' })
+        .then(r => r.json())
+        .then(data => {
+          document.getElementById('reference').textContent = data.reference || 'Verse';
+          document.getElementById('message').textContent = data.message || '';
+          document.getElementById('updatedAt').textContent = data.updatedAt ? `Updated ${new Date(data.updatedAt).toLocaleString()}` : '';
+        })
+        .catch(err => {
+          document.getElementById('reference').textContent = 'Unable to load message';
+          document.getElementById('message').textContent = err.message;
+        });
+    </script>
+  </body>
+</html>
