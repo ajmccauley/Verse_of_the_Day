@@ -9,6 +9,10 @@
 }
 ```
 
+## 2026-04-24
+- Psalm 143:8
+  - Let me hear in the morning of your steadfast love, for in you I trust. Make me know the way I should go, for to you I lift up my soul.
+
 ## 2026-04-21
 - Proverbs 3:5-6
   - Trust in the LORD with all your heart, and do not lean on your own understanding. In all your ways acknowledge him, and he will make straight your paths.
