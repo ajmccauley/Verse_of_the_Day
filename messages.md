@@ -1,5 +1,9 @@
 # Message Log
 
+## 2026-04-27
+- Hebrews 13:2
+  - Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.
+
 ## Message JSON schema
 
 ```json
