@@ -5,8 +5,8 @@
   - Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.
 
 ## 2026-04-28
-- Lamentations 3:22-23
-  - The steadfast love of the LORD never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness.
+- Matthew 6:33
+  - But seek first the kingdom of God and his righteousness, and all these things will be added to you.
 
 ## 2026-04-27
 - Proverbs 21:9
