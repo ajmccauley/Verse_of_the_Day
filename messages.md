@@ -5,8 +5,8 @@
   - Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.
 
 ## 2026-04-28
-- Psalm 118:24
-  - This is the day that the LORD has made; let us rejoice and be glad in it.
+- Lamentations 3:22-23
+  - The steadfast love of the LORD never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness.
 
 ## 2026-04-27
 - Proverbs 21:9
