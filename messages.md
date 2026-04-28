@@ -4,6 +4,10 @@
 - Hebrews 13:2
   - Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.
 
+## 2026-04-28
+- Psalm 118:24
+  - This is the day that the LORD has made; let us rejoice and be glad in it.
+
 ## 2026-04-27
 - Proverbs 21:9
   - It is better to live in a corner of the housetop than in a house shared with a quarrelsome wife.
