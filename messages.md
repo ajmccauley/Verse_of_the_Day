@@ -4,6 +4,10 @@
 - Hebrews 13:2
   - Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.
 
+## 2026-04-29
+- Psalm 23:1
+  - The LORD is my shepherd; I shall not want.
+
 ## 2026-04-28
 - Matthew 6:33
   - But seek first the kingdom of God and his righteousness, and all these things will be added to you.
