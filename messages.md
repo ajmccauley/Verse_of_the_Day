@@ -4,6 +4,10 @@
 - Hebrews 13:2
   - Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.
 
+## 2026-04-30
+- Joshua 1:9
+  - Be strong and courageous. Do not be frightened, and do not be dismayed, for the LORD your God is with you wherever you go.
+
 ## 2026-04-29
 - Psalm 23:1
   - The LORD is my shepherd; I shall not want.
