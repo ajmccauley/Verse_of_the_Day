@@ -4,6 +4,10 @@
 - Hebrews 13:2
   - Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.
 
+## 2026-05-05
+- Psalm 46:1
+  - God is our refuge and strength, a very present help in trouble.
+
 ## 2026-04-30
 - Joshua 1:9
   - Be strong and courageous. Do not be frightened, and do not be dismayed, for the LORD your God is with you wherever you go.
