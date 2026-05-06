@@ -4,6 +4,10 @@
 - Hebrews 13:2
   - Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.
 
+## 2026-05-06
+- Numbers 6:24-26
+  - The LORD bless you and keep you; the LORD make his face to shine upon you and be gracious to you; the LORD lift up his countenance upon you and give you peace.
+
 ## 2026-05-05
 - Psalm 46:1
   - God is our refuge and strength, a very present help in trouble.
