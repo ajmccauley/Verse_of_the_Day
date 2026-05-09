@@ -4,6 +4,10 @@
 - Hebrews 13:2
   - Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.
 
+## 2026-05-09
+- Psalm 51:10
+  - Create in me a clean heart, O God, and renew a right spirit within me.
+
 ## 2026-05-08
 - Lamentations 3:22-23
   - The steadfast love of the LORD never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness.
