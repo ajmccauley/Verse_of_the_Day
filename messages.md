@@ -4,6 +4,10 @@
 - Hebrews 13:2
   - Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.
 
+## 2026-05-12
+- Proverbs 3:5
+  - Trust in the LORD with all your heart, and do not lean on your own understanding.
+
 ## 2026-05-11
 - Psalm 23:1
   - The LORD is my shepherd; I shall not want.
