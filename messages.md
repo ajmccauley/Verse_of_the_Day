@@ -4,6 +4,10 @@
 - Hebrews 13:2
   - Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.
 
+## 2026-05-13
+- Lamentations 3:22-23
+  - The steadfast love of the LORD never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness.
+
 ## 2026-05-12
 - Proverbs 3:5
   - Trust in the LORD with all your heart, and do not lean on your own understanding.
