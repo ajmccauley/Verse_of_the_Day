@@ -4,6 +4,10 @@
 - Hebrews 13:2
   - Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.
 
+## 2026-05-17
+- Proverbs 3:5
+  - Trust in the LORD with all your heart, and do not lean on your own understanding.
+
 ## 2026-05-16
 - Joshua 1:9
   - Be strong and courageous. Do not be frightened, and do not be dismayed, for the LORD your God is with you wherever you go.
