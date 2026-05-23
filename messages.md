@@ -4,6 +4,10 @@
 - Hebrews 13:2
   - Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.
 
+## 2026-05-23
+- Psalm 46:10
+  - Be still, and know that I am God.
+
 ## 2026-05-22
 - Psalm 23:1
   - The LORD is my shepherd; I shall not want.
