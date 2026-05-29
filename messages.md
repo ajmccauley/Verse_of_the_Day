@@ -1,5 +1,9 @@
 # Message Log
 
+## 2026-05-29
+- Jeremiah 29:11
+  - For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope.
+
 ## 2026-04-27
 - Hebrews 13:2
   - Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.
