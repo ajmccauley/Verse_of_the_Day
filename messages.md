@@ -1,5 +1,9 @@
 # Message Log
 
+## 2026-05-30
+- Luke 9:23
+  - And he said to all, If anyone would come after me, let him deny himself and take up his cross daily and follow me.
+
 ## 2026-05-29
 - Jeremiah 29:11
   - For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope.
