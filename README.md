@@ -17,7 +17,8 @@ displays it — updating that file is all it takes to change the dashboard.
 
 Every morning at **7:00 AM Central**, an automated job:
 
-1. Reads the family's shared **Family Board** calendar for the day.
+1. Reads the family's shared **Family Board** calendar plus the user's and
+   Cynthia's personal calendars for the day.
 2. Picks a verse that fits what's going on — strength for game days, peace
    for hectic days, joy for celebrations, and so on. Every verse is quoted
    from the **ESV** translation.

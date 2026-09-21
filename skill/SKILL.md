@@ -12,8 +12,14 @@ user's dashboard. The dashboard page reads `message.json`, so updating that
 file (and logging the choice in `messages.md`) is the entire update.
 
 ## Workflow
-1. Read today's Family Board (America/Chicago):
+1. Read today's calendars (America/Chicago) — the Family Board plus the
+   user's and Cynthia's personal calendars:
    `hatch_gws_cli calendar +agenda --calendar "mccauleyfamilyboard@gmail.com" --today --format json`
+   `hatch_gws_cli calendar +agenda --calendar "ajmccauley@gmail.com" --today --format json`
+   `hatch_gws_cli calendar +agenda --calendar "cynthiamccauley25@gmail.com" --today --format json`
+   Consider all three together when choosing: the Family Board carries the
+   kids' activities, the personal calendars add the adults' day (work trips,
+   appointments, men's group, etc.).
 2. Choose a verse that fits the day. It MUST be quoted in the **ESV**
    translation — no paraphrases, no other translations. If you are not sure
    of the exact ESV wording, pick a verse from the pool in
