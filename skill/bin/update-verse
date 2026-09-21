@@ -1,0 +1,235 @@
+#!/usr/bin/env python3
+"""Post the daily verse to ajmccauley/Verse_of_the_Day.
+
+Two ways to choose the verse:
+  1. Explicit (preferred): --reference "John 3:16" --text "..."
+     The worker picks a verse to fit the day (e.g. today's Family Board)
+     and passes it in. The verse MUST be in the ESV translation.
+  2. Pool fallback: no args. Picks the first verse from
+     references/verses.json (all ESV) not already logged in messages.md.
+
+Updates message.json and prepends a dated entry to messages.md in a single
+commit via the GitHub git-database API, using the github skill's gh-api CLI
+for authenticated requests. Idempotent: if today's date already has an entry
+in messages.md, it does nothing.
+
+Backup: --sync-skill copies SKILL.md, this script, and references/verses.json
+into the repo under skill/ and commits, so the repo always holds a current
+backup of the skill. Run it whenever the skill changes.
+
+Usage:
+  update-verse --reference "Romans 8:28" --text "..." [--dry-run]
+  update-verse [--dry-run]            # pool fallback
+  update-verse --sync-skill [--dry-run]
+"""
+import argparse
+import base64
+import datetime
+import json
+import re
+import subprocess
+import sys
+from zoneinfo import ZoneInfo
+
+REPO = "ajmccauley/Verse_of_the_Day"
+BRANCH = "main"
+GH_API = "/home/hatch/workspace/skills/github/bin/gh-api"
+SKILL_DIR = "/home/hatch/workspace/skills/verse-of-the-day"
+POOL = SKILL_DIR + "/references/verses.json"
+TZ = ZoneInfo("America/Chicago")
+
+SKILL_FILES = [
+    ("SKILL.md", "skill/SKILL.md"),
+    ("bin/update-verse", "skill/bin/update-verse"),
+    ("references/verses.json", "skill/references/verses.json"),
+    ("README.md", "README.md"),
+]
+
+
+def gh(method, path, data=None, params=None, quiet=False):
+    cmd = [GH_API, method, path]
+    if data is not None:
+        cmd += ["-d", json.dumps(data)]
+    for p in params or []:
+        cmd += ["--params", p]
+    proc = subprocess.run(cmd, capture_output=True, text=True)
+    if proc.returncode != 0:
+        if not quiet:
+            print(proc.stderr.strip(), file=sys.stderr)
+        raise SystemExit(f"GitHub API call failed: {method} {path}")
+    return json.loads(proc.stdout) if proc.stdout.strip() else {}
+
+
+def norm_ref(ref):
+    return re.sub(r"\s+", " ", ref.strip().lower())
+
+
+def parse_log(md_text):
+    """Return list of (date_str, reference) from messages.md, newest first."""
+    entries = []
+    current_date = None
+    for line in md_text.splitlines():
+        m = re.match(r"##\s+(\d{4}-\d{2}-\d{2})", line)
+        if m:
+            current_date = m.group(1)
+            continue
+        m = re.match(r"-\s+(.+)$", line)
+        if m and current_date and not line.startswith("  -"):
+            ref = m.group(1).strip()
+            if re.match(r"^[1-3]?\s?[A-Za-z]+\s+\d+", ref):
+                entries.append((current_date, ref))
+    return entries
+
+
+def repo_file_content(path):
+    """Return decoded text of a repo file, or None if missing."""
+    try:
+        c = gh("GET", f"/repos/{REPO}/contents/{path}",
+               params=["ref=" + BRANCH], quiet=True)
+    except SystemExit:
+        return None
+    if c.get("type") != "file":
+        return None
+    return base64.b64decode(c["content"]).decode("utf-8")
+
+
+def commit_files(files, message, dry_run):
+    """Commit {repo_path: text} dict in a single commit. Returns commit sha."""
+    if dry_run:
+        print(f"[dry-run] would commit: {message}")
+        for path in files:
+            print(f"  - {path}")
+        return "dry-run"
+
+    head = gh("GET", f"/repos/{REPO}/git/ref/heads/{BRANCH}")
+    head_sha = head["object"]["sha"]
+    commit = gh("GET", f"/repos/{REPO}/git/commits/{head_sha}")
+    base_tree = commit["tree"]["sha"]
+
+    def make_blob(content):
+        b = gh("POST", f"/repos/{REPO}/git/blobs",
+               {"content": base64.b64encode(
+                   content.encode("utf-8")).decode("ascii"),
+                "encoding": "base64"})
+        return b["sha"]
+
+    tree_entries = [
+        {"path": path, "mode": "100644", "type": "blob",
+         "sha": make_blob(content)}
+        for path, content in files.items()
+    ]
+    new_tree = gh("POST", f"/repos/{REPO}/git/trees",
+                  {"base_tree": base_tree, "tree": tree_entries})
+    new_commit = gh("POST", f"/repos/{REPO}/git/commits",
+                    {"message": message, "tree": new_tree["sha"],
+                     "parents": [head_sha]})
+    gh("PATCH", f"/repos/{REPO}/git/refs/heads/{BRANCH}",
+       {"sha": new_commit["sha"]})
+    return new_commit["sha"]
+
+
+def sync_skill(dry_run):
+    changed = {}
+    for local_rel, repo_path in SKILL_FILES:
+        with open(f"{SKILL_DIR}/{local_rel}", encoding="utf-8") as f:
+            local = f.read()
+        remote = repo_file_content(repo_path)
+        if remote != local:
+            changed[repo_path] = local
+            print(f"  {'would update' if dry_run else 'updating'}: {repo_path}")
+        else:
+            print(f"  unchanged: {repo_path}")
+    if not changed:
+        print("Skill backup already current; nothing to commit.")
+        return 0
+    sha = commit_files(changed, "Sync skill backup", dry_run)
+    print(f"Skill backup synced ({sha[:7] if len(sha) > 7 else sha}).")
+    return 0
+
+
+def post_verse(reference, text, dry_run):
+    today = datetime.datetime.now(TZ).strftime("%Y-%m-%d")
+    md_text = repo_file_content("messages.md")
+    if md_text is None:
+        raise SystemExit("messages.md not found in repo")
+
+    used = parse_log(md_text)
+    if any(d == today for d, _ in used):
+        print(f"Verse already posted for {today}; nothing to do.")
+        return 0
+
+    used_refs = {norm_ref(ref) for _, ref in used}
+    if norm_ref(reference) in used_refs:
+        print(f"Refusing: {reference} was already used. Pick another verse.",
+              file=sys.stderr)
+        return 2
+
+    message_json = json.dumps({"message": text, "reference": reference},
+                              indent=2, ensure_ascii=False) + "\n"
+    header, sep, rest = md_text.partition("# Message Log\n")
+    if not sep:
+        raise SystemExit("messages.md missing '# Message Log' header")
+    entry = f"\n## {today}\n- {reference}\n  - {text}\n"
+    new_md = header + "# Message Log\n" + entry + rest[len("\n"):]
+
+    if dry_run:
+        print(f"Today's verse ({today}): {reference}")
+        print("--- message.json (would write) ---")
+        print(message_json)
+        print("--- messages.md new entry (would prepend) ---")
+        print(entry)
+        return 0
+
+    sha = commit_files(
+        {"message.json": message_json, "messages.md": new_md},
+        f"Verse of the day — {today} ({reference})", dry_run=False)
+    print(f"Committed {sha[:7]}: {reference} — {text}")
+    return 0
+
+
+def pool_pick():
+    with open(POOL, encoding="utf-8") as f:
+        pool = json.load(f)
+    md_text = repo_file_content("messages.md")
+    if md_text is None:
+        raise SystemExit("messages.md not found in repo")
+    used = parse_log(md_text)
+    used_refs = {norm_ref(ref) for _, ref in used}
+    pick = next((v for v in pool if norm_ref(v["reference"]) not in used_refs),
+                None)
+    if pick is None:
+        last_used = {}
+        for d, ref in used:
+            last_used.setdefault(norm_ref(ref), d)
+        pick = min(pool, key=lambda v: last_used.get(norm_ref(v["reference"]),
+                                                     "0000-00-00"))
+        print("Pool exhausted; reusing least-recently-used verse.",
+              file=sys.stderr)
+    return pick["reference"], pick["text"]
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Post the daily verse.")
+    parser.add_argument("--reference", help="Verse reference, e.g. 'John 3:16'")
+    parser.add_argument("--text", help="Verse text (must be ESV)")
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--sync-skill", action="store_true",
+                        help="Sync skill files to repo backup and exit")
+    args = parser.parse_args()
+
+    if args.sync_skill:
+        return sync_skill(args.dry_run)
+
+    if bool(args.reference) != bool(args.text):
+        parser.error("--reference and --text must be given together")
+
+    if args.reference:
+        return post_verse(args.reference, args.text, args.dry_run)
+
+    reference, text = pool_pick()
+    print(f"Pool fallback pick: {reference}", file=sys.stderr)
+    return post_verse(reference, text, args.dry_run)
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
