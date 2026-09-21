@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-09-21
+- Romans 8:28
+  - And we know that for those who love God all things work together for good, for those who are called according to his purpose.
 ## 2026-05-30
 - Luke 9:23
   - And he said to all, If anyone would come after me, let him deny himself and take up his cross daily and follow me.
