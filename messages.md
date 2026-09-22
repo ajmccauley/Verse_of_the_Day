@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-09-22
+- Colossians 3:23
+  - Whatever you do, work heartily, as for the Lord and not for men.
 ## 2026-09-21
 - Romans 8:28
   - And we know that for those who love God all things work together for good, for those who are called according to his purpose.
