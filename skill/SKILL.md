@@ -12,11 +12,14 @@ user's dashboard. The dashboard page reads `message.json`, so updating that
 file (and logging the choice in `messages.md`) is the entire update.
 
 ## Workflow
-1. Read today's calendars (America/Chicago) — the Family Board plus the
-   user's and Cynthia's personal calendars:
-   `hatch_gws_cli calendar +agenda --calendar "mccauleyfamilyboard@gmail.com" --today --format json`
-   `hatch_gws_cli calendar +agenda --calendar "ajmccauley@gmail.com" --today --format json`
-   `hatch_gws_cli calendar +agenda --calendar "cynthiamccauley25@gmail.com" --today --format json`
+1. Read today's calendars (America/Chicago):
+   - Family Board (Google):
+     `hatch_gws_cli calendar +agenda --calendar "mccauleyfamilyboard@gmail.com" --today --format json`
+   - Cynthia's calendar (Google):
+     `hatch_gws_cli calendar +agenda --calendar "cynthiamccauley25@gmail.com" --today --format json`
+   - The user's personal calendar (Outlook):
+     `outlook-calendar list --page-size 50 --time-min "<today>T00:00:00-05:00" --time-max "<tomorrow>T00:00:00-05:00"`
+     with `<today>`/`<tomorrow>` as dates like `2026-09-22`/`2026-09-23`.
    Consider all three together when choosing: the Family Board carries the
    kids' activities, the personal calendars add the adults' day (work trips,
    appointments, men's group, etc.).
