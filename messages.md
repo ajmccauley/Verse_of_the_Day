@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-09-24
+- Hebrews 12:1
+  - Therefore, since we are surrounded by so great a cloud of witnesses, let us also lay aside every weight, and sin which clings so closely, and let us run with endurance the race that is set before us.
 ## 2026-09-23
 - Hebrews 10:24-25
   - And let us consider how to stir up one another to love and good works, not neglecting to meet together, as is the habit of some, but encouraging one another, and all the more as you see the Day drawing near.
