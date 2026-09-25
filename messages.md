@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-09-25
+- Philippians 4:6-7
+  - Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.
 ## 2026-09-24
 - Hebrews 12:1
   - Therefore, since we are surrounded by so great a cloud of witnesses, let us also lay aside every weight, and sin which clings so closely, and let us run with endurance the race that is set before us.
