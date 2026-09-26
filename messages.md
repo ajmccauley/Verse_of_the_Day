@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-09-26
+- 1 Corinthians 9:24
+  - Do you not know that in a race all the runners run, but only one receives the prize? So run that you may obtain it.
 ## 2026-09-25
 - Philippians 4:6-7
   - Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.
