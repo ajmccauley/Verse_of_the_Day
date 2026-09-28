@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-09-28
+- Isaiah 40:31
+  - But they who wait for the LORD shall renew their strength; they shall mount up with wings like eagles; they shall run and not be weary; they shall walk and not faint.
 ## 2026-09-27
 - Psalm 118:24
   - This is the day that the LORD has made; let us rejoice and be glad in it.
