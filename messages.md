@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-09-30
+- 1 Peter 4:10
+  - As each has received a gift, use it to serve one another, as good stewards of God's varied grace.
 ## 2026-09-29
 - Philippians 4:13
   - I can do all things through him who strengthens me.
