@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-01
+- Psalm 133:1
+  - Behold, how good and pleasant it is when brothers dwell in unity!
 ## 2026-09-30
 - 1 Peter 4:10
   - As each has received a gift, use it to serve one another, as good stewards of God's varied grace.
