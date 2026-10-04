@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-04
+- Psalm 122:1
+  - I was glad when they said to me, 'Let us go to the house of the LORD!'
 ## 2026-10-03
 - 2 Timothy 4:7
   - I have fought the good fight, I have finished the race, I have kept the faith.
