@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-05
+- Deuteronomy 31:6
+  - Be strong and courageous. Do not fear or be in dread of them, for it is the LORD your God who goes with you. He will not leave you or forsake you.
 ## 2026-10-04
 - Psalm 122:1
   - I was glad when they said to me, 'Let us go to the house of the LORD!'
