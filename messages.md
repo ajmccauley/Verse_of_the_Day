@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-06
+- John 13:34-35
+  - A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another. By this all people will know that you are my disciples, if you have love for one another.
 ## 2026-10-05
 - Deuteronomy 31:6
   - Be strong and courageous. Do not fear or be in dread of them, for it is the LORD your God who goes with you. He will not leave you or forsake you.
