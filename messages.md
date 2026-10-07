@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-07
+- Proverbs 22:6
+  - Train up a child in the way he should go; even when he is old he will not depart from it.
 ## 2026-10-06
 - John 13:34-35
   - A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another. By this all people will know that you are my disciples, if you have love for one another.
