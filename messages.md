@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-10
+- Matthew 18:20
+  - For where two or three are gathered in my name, there am I among them.
 ## 2026-10-09
 - 1 Thessalonians 5:16-18
   - Rejoice always, pray without ceasing, give thanks in all circumstances; for this is the will of God in Christ Jesus for you.
