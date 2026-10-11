@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-11
+- Romans 10:9
+  - If you confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved.
 ## 2026-10-10
 - Matthew 18:20
   - For where two or three are gathered in my name, there am I among them.
