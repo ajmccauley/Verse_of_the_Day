@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-12
+- Isaiah 41:10
+  - Fear not, for I am with you; be not dismayed, for I am your God; I will strengthen you, I will help you, I will uphold you with my righteous right hand.
 ## 2026-10-11
 - Romans 10:9
   - If you confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved.
