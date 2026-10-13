@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-13
+- 2 Timothy 1:7
+  - For God gave us a spirit not of fear but of power and love and self-control.
 ## 2026-10-12
 - Isaiah 41:10
   - Fear not, for I am with you; be not dismayed, for I am your God; I will strengthen you, I will help you, I will uphold you with my righteous right hand.
