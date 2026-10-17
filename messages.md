@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-17
+- James 1:2-3
+  - Count it all joy, my brothers, when you meet trials of various kinds, for you know that the testing of your faith produces steadfastness.
 ## 2026-10-16
 - Nehemiah 8:10
   - And do not be grieved, for the joy of the LORD is your strength.
