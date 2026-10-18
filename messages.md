@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-18
+- Psalm 100:4
+  - Enter his gates with thanksgiving, and his courts with praise! Give thanks to him; bless his name!
 ## 2026-10-17
 - James 1:2-3
   - Count it all joy, my brothers, when you meet trials of various kinds, for you know that the testing of your faith produces steadfastness.
