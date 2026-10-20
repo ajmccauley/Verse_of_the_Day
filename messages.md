@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-20
+- Romans 12:10
+  - Love one another with brotherly affection. Outdo one another in showing honor.
 ## 2026-10-19
 - Ecclesiastes 3:1
   - For everything there is a season, and a time for every matter under heaven.
