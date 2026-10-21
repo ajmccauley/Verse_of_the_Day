@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-21
+- James 1:5
+  - If any of you lacks wisdom, let him ask God, who gives generously to all without reproach, and it will be given him.
 ## 2026-10-20
 - Romans 12:10
   - Love one another with brotherly affection. Outdo one another in showing honor.
