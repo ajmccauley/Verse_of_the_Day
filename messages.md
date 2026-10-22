@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-22
+- Psalm 121:1-2
+  - I lift up my eyes to the hills. From where does my help come? My help comes from the LORD, who made heaven and earth.
 ## 2026-10-21
 - James 1:5
   - If any of you lacks wisdom, let him ask God, who gives generously to all without reproach, and it will be given him.
