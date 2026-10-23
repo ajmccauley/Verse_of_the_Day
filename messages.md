@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-23
+- Psalm 90:12
+  - So teach us to number our days that we may get a heart of wisdom.
 ## 2026-10-22
 - Psalm 121:1-2
   - I lift up my eyes to the hills. From where does my help come? My help comes from the LORD, who made heaven and earth.
