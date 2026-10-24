@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-24
+- Matthew 11:28
+  - Come to me, all who labor and are heavy laden, and I will give you rest.
 ## 2026-10-23
 - Psalm 90:12
   - So teach us to number our days that we may get a heart of wisdom.
