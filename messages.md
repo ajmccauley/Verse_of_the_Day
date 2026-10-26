@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-26
+- 2 Corinthians 12:9
+  - But he said to me, 'My grace is sufficient for you, for my power is made perfect in weakness.' Therefore I will boast all the more gladly of my weaknesses, so that the power of Christ may rest upon me.
 ## 2026-10-25
 - Psalm 19:14
   - Let the words of my mouth and the meditation of my heart be acceptable in your sight, O LORD, my rock and my redeemer.
