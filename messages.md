@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-28
+- Colossians 3:17
+  - And whatever you do, in word or deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him.
 ## 2026-10-27
 - Psalm 56:3
   - When I am afraid, I put my trust in you.
