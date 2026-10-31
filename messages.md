@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-10-31
+- Romans 12:12
+  - Rejoice in hope, be patient in tribulation, be constant in prayer.
 ## 2026-10-30
 - Psalm 16:11
   - You make known to me the path of life; in your presence there is fullness of joy; at your right hand are pleasures forevermore.
