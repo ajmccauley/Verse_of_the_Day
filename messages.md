@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-03
+- Ephesians 4:32
+  - Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you.
 ## 2026-11-02
 - Isaiah 43:2
   - When you pass through the waters, I will be with you; and through the rivers, they shall not overwhelm you; when you walk through fire you shall not be burned, and the flame shall not consume you.
