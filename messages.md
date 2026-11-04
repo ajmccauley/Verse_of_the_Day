@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-04
+- 1 Corinthians 16:14
+  - Let all that you do be done in love.
 ## 2026-11-03
 - Ephesians 4:32
   - Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you.
