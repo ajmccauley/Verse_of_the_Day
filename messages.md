@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-05
+- Colossians 4:2
+  - Continue steadfastly in prayer, being watchful in it with thanksgiving.
 ## 2026-11-04
 - 1 Corinthians 16:14
   - Let all that you do be done in love.
