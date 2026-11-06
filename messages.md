@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-06
+- Isaiah 26:3
+  - You keep him in perfect peace whose mind is stayed on you, because he trusts in you.
 ## 2026-11-05
 - Colossians 4:2
   - Continue steadfastly in prayer, being watchful in it with thanksgiving.
