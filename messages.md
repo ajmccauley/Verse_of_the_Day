@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-08
+- Matthew 25:40
+  - Truly, I say to you, as you did it to one of the least of these my brothers, you did it to me.
 ## 2026-11-07
 - Philippians 1:6
   - And I am sure of this, that he who began a good work in you will bring it to completion at the day of Jesus Christ.
