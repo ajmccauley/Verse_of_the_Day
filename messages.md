@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-10
+- Ephesians 3:20
+  - Now to him who is able to do far more abundantly than all that we ask or think, according to the power at work within us.
 ## 2026-11-09
 - Isaiah 12:2
   - Behold, God is my salvation; I will trust, and will not be afraid; for the LORD GOD is my strength and my song, and he has become my salvation.
