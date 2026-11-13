@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-13
+- John 16:33
+  - I have said these things to you, that in me you may have peace. In the world you will have tribulation. But take heart; I have overcome the world.
 ## 2026-11-12
 - Proverbs 18:10
   - The name of the LORD is a strong tower; the righteous man runs into it and is safe.
