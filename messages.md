@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-14
+- Psalm 127:3
+  - Behold, children are a heritage from the LORD, the fruit of the womb a reward.
 ## 2026-11-13
 - John 16:33
   - I have said these things to you, that in me you may have peace. In the world you will have tribulation. But take heart; I have overcome the world.
