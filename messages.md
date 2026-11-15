@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-15
+- 1 Corinthians 13:4-7
+  - Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrongdoing, but rejoices with the truth. Love bears all things, believes all things, hopes all things, endures all things.
 ## 2026-11-14
 - Psalm 127:3
   - Behold, children are a heritage from the LORD, the fruit of the womb a reward.
