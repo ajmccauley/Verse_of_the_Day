@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-16
+- Romans 8:38-39
+  - For I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord.
 ## 2026-11-15
 - 1 Corinthians 13:4-7
   - Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrongdoing, but rejoices with the truth. Love bears all things, believes all things, hopes all things, endures all things.
