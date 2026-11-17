@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-17
+- Hebrews 4:16
+  - Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need.
 ## 2026-11-16
 - Romans 8:38-39
   - For I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord.
