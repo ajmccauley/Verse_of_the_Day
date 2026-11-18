@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-18
+- 1 John 4:19
+  - We love because he first loved us.
 ## 2026-11-17
 - Hebrews 4:16
   - Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need.
