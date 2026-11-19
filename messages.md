@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-19
+- Zephaniah 3:17
+  - The LORD your God is in your midst, a mighty one who will save; he will rejoice over you with gladness; he will quiet you by his love; he will exult over you with loud singing.
 ## 2026-11-18
 - 1 John 4:19
   - We love because he first loved us.
