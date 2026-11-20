@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-20
+- Psalm 91:1-2
+  - He who dwells in the shelter of the Most High will abide in the shadow of the Almighty. I will say to the LORD, 'My refuge and my fortress, my God, in whom I trust.'
 ## 2026-11-19
 - Zephaniah 3:17
   - The LORD your God is in your midst, a mighty one who will save; he will rejoice over you with gladness; he will quiet you by his love; he will exult over you with loud singing.
