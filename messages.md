@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-21
+- Galatians 5:22-23
+  - But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such things there is no law.
 ## 2026-11-20
 - Psalm 91:1-2
   - He who dwells in the shelter of the Most High will abide in the shadow of the Almighty. I will say to the LORD, 'My refuge and my fortress, my God, in whom I trust.'
