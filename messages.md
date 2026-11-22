@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-22
+- Deuteronomy 6:6-7
+  - And these words that I command you today shall be on your heart. You shall teach them diligently to your children, and shall talk of them when you sit in your house, and when you walk by the way, and when you lie down, and when you rise.
 ## 2026-11-21
 - Galatians 5:22-23
   - But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such things there is no law.
