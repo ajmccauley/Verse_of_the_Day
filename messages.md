@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-23
+- Psalm 23:2-3
+  - He makes me lie down in green pastures. He leads me beside still waters. He restores my soul. He leads me in paths of righteousness for his name's sake.
 ## 2026-11-22
 - Deuteronomy 6:6-7
   - And these words that I command you today shall be on your heart. You shall teach them diligently to your children, and shall talk of them when you sit in your house, and when you walk by the way, and when you lie down, and when you rise.
