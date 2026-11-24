@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-24
+- Psalm 107:1
+  - Oh give thanks to the LORD, for he is good, for his steadfast love endures forever!
 ## 2026-11-23
 - Psalm 23:2-3
   - He makes me lie down in green pastures. He leads me beside still waters. He restores my soul. He leads me in paths of righteousness for his name's sake.
