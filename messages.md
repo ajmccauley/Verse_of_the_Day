@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-25
+- Habakkuk 3:18
+  - Yet I will rejoice in the LORD; I will take joy in the God of my salvation.
 ## 2026-11-24
 - Psalm 107:1
   - Oh give thanks to the LORD, for he is good, for his steadfast love endures forever!
