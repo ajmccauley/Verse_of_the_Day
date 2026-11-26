@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-26
+- Hebrews 11:1
+  - Now faith is the assurance of things hoped for, the conviction of things not seen.
 ## 2026-11-25
 - Habakkuk 3:18
   - Yet I will rejoice in the LORD; I will take joy in the God of my salvation.
