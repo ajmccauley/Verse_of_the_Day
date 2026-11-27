@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-27
+- Psalm 23:6
+  - Surely goodness and mercy shall follow me all the days of my life, and I shall dwell in the house of the LORD forever.
 ## 2026-11-26
 - Hebrews 11:1
   - Now faith is the assurance of things hoped for, the conviction of things not seen.
