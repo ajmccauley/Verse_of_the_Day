@@ -1,5 +1,8 @@
 # Message Log
 
+## 2026-11-28
+- Psalm 37:4
+  - Delight yourself in the LORD, and he will give you the desires of your heart.
 ## 2026-11-27
 - Psalm 23:6
   - Surely goodness and mercy shall follow me all the days of my life, and I shall dwell in the house of the LORD forever.
